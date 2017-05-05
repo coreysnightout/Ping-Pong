@@ -1,25 +1,28 @@
-# _{Application Name}_
+# _{Ping Pong}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _{Create a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with exceptions listed below in specifications}, {May 5th 2017}_
 
-#### By _**{List of contributors}**_
+#### By _**{Corey Redding}**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_{Create a web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
+  * Numbers divisible by 3 are replaced with "ping"
+  * Numbers divisible by 5 are replaced with "pong"
+  * Numbers divisible by 15 are replaced with "ping-pong"}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _copy and paste respository link from Github https://github.com/coreysnightout/Ping-Pong.git_
+* _git clone on terminal_
+* _use terminal to open index.html_
+* _enter any number_
+* _see result by clicking submit button_
 
 ## Specifications ##
 * The program can count up to the provided number.
-  * example input: "2"
-  * example output: "[1,2]"
+  * example input: "5"
+  * example output: "[1, 2, 3, 4, 5]"
 * The program will be able to accept numerical inputs, alphabetical letters and punctuations will be ignored.
   * example input: "#"
   * example output: ""
@@ -29,7 +32,9 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * The program will replace numbers divisible by 5 with "pong".
   * example input: "25"
   * example output: "pong"
-*
+* The program will replace numbers divisible by 15 with "ping-pong".
+  * example input: "30"
+  * example output: "ping-pong"
 _{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
 
 ## Known Bugs
