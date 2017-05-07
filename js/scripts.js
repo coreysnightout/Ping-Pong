@@ -4,6 +4,8 @@ var pingPong = function(input) {
   for(var index = 1; index <= input; index++){
     if (index % 3 === 0){
       output.push("ping");
+    } else if (index % 5 ===0){
+      output.push("pong");
     } else {
       output.push(index);
     }
