@@ -2,7 +2,11 @@
 var pingPong = function(input) {
   var output = [];
   for(var index = 1; index <= input; index++){
-  output.push(index);
+    if (index % 3 === 0){
+      output.push("ping");
+    } else {
+      output.push(index);
+    }
   }
   return output;
 };
